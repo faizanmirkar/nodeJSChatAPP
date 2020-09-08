@@ -10,6 +10,7 @@ app.get("/", function(req, res){
     res.render("page");
 });
 
+
 // use our puclic/chat.js file as listener
 app.use(express.static(__dirname + '/public'));
 // Set port
